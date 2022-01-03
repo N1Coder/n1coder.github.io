@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 847.859 1080.614">
+  <g id="bg-line" transform="translate(-1073.052 -0.171)" opacity="0.3">
+    <line id="Line_1" data-name="Line 1" y1="1080" x2="198" transform="translate(1446.5 0.5)" fill="none" stroke="#00c3a3" stroke-width="1"/>
+    <line id="Line_2" data-name="Line 2" x1="472" y1="540" transform="translate(1073.5 0.5)" fill="none" stroke="#00c3a3" stroke-width="1"/>
+    <line id="Line_3" data-name="Line 3" x2="33" y2="690" transform="translate(1413.5 390.5)" fill="none" stroke="#00c3a3" stroke-width="1"/>
+    <path id="Path_5" data-name="Path 5" d="M-65.147-92.2,304.925,49.361" transform="translate(1610.647 632.204)" fill="none" stroke="#00c3a3" stroke-width="1"/>
+    <line id="Line_4" data-name="Line 4" y1="390" x2="231" transform="translate(1413.5 0.5)" fill="none" stroke="#00c3a3" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" y1="540" x2="375" transform="translate(1545.5 0.5)" fill="none" stroke="#00c3a3" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" x2="375" y2="540" transform="translate(1545.5 540.5)" fill="none" stroke="#00c3a3" stroke-width="1"/>
+    <line id="Line_7" data-name="Line 7" x1="340" y2="690" transform="translate(1073.5 390.5)" fill="none" stroke="#00c3a3" stroke-width="1"/>
+  </g>
+</svg>
