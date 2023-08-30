@@ -1,273 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg" sizes="32x32" href="images/logo.svg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" sizes="32x32" href="images/logo.svg" />
 
     <!-- Link to my main css style -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" />
 
     <!-- Link stylesheet for AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Link to random text animation script -->
     <script src="javascript/random-text.js" defer></script>
     <script src="javascript/script.js" defer></script>
-    
-    <title>N1Coder | Portfolio</title>
-</head>
-<body>
 
+    <title>N1Coder | Portfolio</title>
+  </head>
+  <body>
     <!-- Navigation start here -->
     <header>
-        <a href="#home" class="logo">
-            <img src="images/logo.svg" alt="N1Coder-logo">
-            <span class="my-logo">N<span class="main-clr">1</span>Coder</span>
-        </a>
+      <a href="#home" class="logo">
+        <img src="images/logo.svg" alt="N1Coder-logo" />
+        <span class="my-logo">N<span class="main-clr">1</span>Coder</span>
+      </a>
 
-        <div onclick="activeMenu()" id="toggle-nav" class="toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+      <div onclick="activeMenu()" id="toggle-nav" class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-        <ul class="nav" id="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a style="margin-right: 0;" href="#contacts">Contacts</a></li>
-        </ul>
+      <ul class="nav" id="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a style="margin-right: 0" href="#contacts">Contacts</a></li>
+      </ul>
     </header>
 
     <!-- Home/hero section is what user first see in my websites -->
     <section id="home" class="home">
-        <div class="content" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="500">
-            <!-- Indicator that using handwriting font style -->
-            <span class="indicator" data-aos="slide-right" data-aos-easing="ease-in-out-quart" data-aos-duration="1000" data-aos-delay="200">| home |</span>
-            
-            <!-- Title that generated random text from random-text.js script -->
-            <h1 class="title">
-                <span class="random" data-final="H"></span>
-                <span class="random" data-final="a"></span>
-                <span class="random" data-final="l"></span>
-                <span class="random" data-final="l"></span>
-                <span class="random" data-final="o"></span>
-                <span class="random" data-final=","></span>
+      <div
+        class="content"
+        data-aos="fade-up-right"
+        data-aos-duration="2000"
+        data-aos-delay="500"
+      >
+        <!-- Indicator that using handwriting font style -->
+        <span
+          class="indicator"
+          data-aos="slide-right"
+          data-aos-easing="ease-in-out-quart"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          >| home |</span
+        >
 
-                <span style="margin-left: 0.25em;" class="random" data-final="I"></span>
-                <span class="random" data-final="'"></span>
-                <span class="random" data-final="m"></span>
+        <!-- Title that generated random text from random-text.js script -->
+        <h1 class="title">
+          <span class="random" data-final="H"></span>
+          <span class="random" data-final="a"></span>
+          <span class="random" data-final="l"></span>
+          <span class="random" data-final="l"></span>
+          <span class="random" data-final="o"></span>
+          <span class="random" data-final=","></span>
 
-                <span style="margin-left: 0.25em;" class="random" data-final="N"></span>
-                <span class="main-clr random" data-final="1"></span>
-                <span class="random" data-final="C"></span>
-                <span class="random" data-final="o"></span>
-                <span class="random" data-final="d"></span>
-                <span class="random" data-final="e"></span>
-                <span class="random" data-final="r"></span>
-            </h1>
-            <span class="sub">A Frontend Developer and A Student</span>
-            <a href="#about" class="btn">Read More</a>
-        </div>
+          <span
+            style="margin-left: 0.25em"
+            class="random"
+            data-final="I"
+          ></span>
+          <span class="random" data-final="'"></span>
+          <span class="random" data-final="m"></span>
 
-        <div class="watermark">Home</div>
+          <span
+            style="margin-left: 0.25em"
+            class="random"
+            data-final="N"
+          ></span>
+          <span class="main-clr random" data-final="1"></span>
+          <span class="random" data-final="C"></span>
+          <span class="random" data-final="o"></span>
+          <span class="random" data-final="d"></span>
+          <span class="random" data-final="e"></span>
+          <span class="random" data-final="r"></span>
+        </h1>
+        <span class="sub">A Frontend Developer and A Student</span>
+        <a href="#about" class="btn">Read More</a>
+      </div>
+
+      <div class="watermark">Home</div>
     </section>
 
     <!-- About section that contain my personal information -->
     <section id="about" class="about">
-        <div data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200" class="content-about">
-            <!-- Indicator that using handwriting font style -->
-            <span class="indicator" data-aos-easing="ease-out-quad" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">| more about me |</span>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1400"
+        data-aos-delay="200"
+        class="content-about"
+      >
+        <!-- Indicator that using handwriting font style -->
+        <span
+          class="indicator"
+          data-aos-easing="ease-out-quad"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          >| more about me |</span
+        >
 
-            <h2>About Myself😆</h2>
-            <p>Hello folks, I'm Nico Arifin from Indonesia, East Kalimantan. A student that passionate to learn coding and practice them, I currently about 17 years old and interested in Frontend Development languages. Right now I still learning some basic Javascript and CSS Preprocessor (SASS), soon I want to become a happy and great Frontend Developer.</p>
-        </div>
+        <h2>About Myself😆</h2>
+        <p>
+          Hello folks, I'm Nico Arifin from Indonesia, East Kalimantan. A
+          student that passionate to learn coding and practice them, I currently
+          about 18 years old and interested in Frontend Development languages.
+          Right now I still learning some basic Javascript and CSS Preprocessor
+          (SASS), soon I want to become a happy and great Frontend Developer.
+        </p>
+      </div>
 
-        <a style="left: 7%;" class="nav-arrow" href="#projects">
-            <ion-icon name="arrow-down-outline"></ion-icon>
-            <span>Check Out My Projects</span>
-        </a>
-        
-        <div class="watermark">About</div>
+      <a style="left: 7%" class="nav-arrow" href="#projects">
+        <ion-icon name="arrow-down-outline"></ion-icon>
+        <span>Check Out My Projects</span>
+      </a>
+
+      <div class="watermark">About</div>
     </section>
 
     <!-- Projects section that contains my project and link them to live site -->
     <section id="projects" class="projects">
-        <div data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200" class="gallery-projects">
-            <!-- Indicator that using handwriting font style -->
-            <span class="indicator" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">| collections of my projects |</span>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1400"
+        data-aos-delay="200"
+        class="gallery-projects"
+      >
+        <!-- Indicator that using handwriting font style -->
+        <span
+          class="indicator"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          >| collections of my projects |</span
+        >
 
-                <div class="item">
-                    <a class="container-img" href="#"><img src="images/fem-dashboard.png" alt="my-project"></a>
-                    <h3>Project 1</h3>
-                    <a class="btn-redirect" href="https://n1coder.github.io/FEM-dashboard/" target="_blank">Preview on Live Site</a>
-                </div>
-
-                <div class="item">
-                    <a class="container-img" href="#">
-                        <img src="images/grid-testimonial.png" alt="my-project">
-                    </a>
-                    <h3>Project 2</h3>
-                    <a class="btn-redirect" href="https://n1coder.github.io/CSS-Practice/testimonials-grid-main/index.html" target="_blank">Preview on Live Site</a>
-                </div>
+        <div class="item">
+          <a class="container-img" href="#"
+            ><img src="images/fem-dashboard.png" alt="my-project"
+          /></a>
+          <h3>Project 1</h3>
+          <a
+            class="btn-redirect"
+            href="https://n1coder.github.io/FEM-dashboard/"
+            target="_blank"
+            >Preview on Live Site</a
+          >
         </div>
 
-        <div class="watermark">Projects</div>
+        <div class="item">
+          <a class="container-img" href="#">
+            <img src="images/grid-testimonial.png" alt="my-project" />
+          </a>
+          <h3>Project 2</h3>
+          <a
+            class="btn-redirect"
+            href="https://n1coder.github.io/CSS-Practice/testimonials-grid-main/index.html"
+            target="_blank"
+            >Preview on Live Site</a
+          >
+        </div>
+      </div>
 
-        <a class="nav-arrow" href="#projects-2">
-            <ion-icon name="arrow-down-outline"></ion-icon>
-            <span>More From My Projects</span>
-        </a>
+      <div class="watermark">Projects</div>
+
+      <a class="nav-arrow" href="#projects-2">
+        <ion-icon name="arrow-down-outline"></ion-icon>
+        <span>More From My Projects</span>
+      </a>
     </section>
 
     <!-- second project section -->
     <section id="projects-2" class="projects">
-        <div data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200" class="gallery-projects">
-            <!-- Indicator that using handwriting font style -->
-            <span class="indicator" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">| collections of my projects |</span>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1100"
+        data-aos-delay="200"
+        class="gallery-projects"
+      >
+        <!-- Indicator that using handwriting font style -->
+        <span
+          class="indicator"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          >| collections of my projects |</span
+        >
 
-                <div class="item">
-                    <a class="container-img" href="#"><img src="images/project-four-card-features.png" alt="my-project"></a>
-                    <h3>Project 3</h3>
-                    <a class="btn-redirect" href="https://n1coder.github.io/CSS-Practice/four-card-feature-section-master/index.html" target="_blank">Preview on Live Site</a>
-                </div>
+        <div class="item">
+          <a class="container-img" href="#"
+            ><img src="images/project-four-card-features.png" alt="my-project"
+          /></a>
+          <h3>Project 3</h3>
+          <a
+            class="btn-redirect"
+            href="https://n1coder.github.io/CSS-Practice/four-card-feature-section-master/index.html"
+            target="_blank"
+            >Preview on Live Site</a
+          >
+        </div>
 
-                <div class="item">
-                    <a class="container-img" href="#"><img src="images/project-3-column-card.png" alt="my-project"></a>
-                    <h3>Project 4</h3>
-                    <a class="btn-redirect" href="https://n1coder.github.io/CSS-Practice/3-column-preview-card/index.html" target="_blank">Preview on Live Site</a>
-                </div>
-            </div>
-            
-            <a class="nav-arrow" href="#contacts">
-                <ion-icon name="arrow-down-outline"></ion-icon>
-                <span>Scroll Down</span>
-            </a>
+        <div class="item">
+          <a class="container-img" href="#"
+            ><img src="images/project-3-column-card.png" alt="my-project"
+          /></a>
+          <h3>Project 4</h3>
+          <a
+            class="btn-redirect"
+            href="https://n1coder.github.io/CSS-Practice/3-column-preview-card/index.html"
+            target="_blank"
+            >Preview on Live Site</a
+          >
+        </div>
+      </div>
 
-        <div class="watermark">Projects</div>
+      <a class="nav-arrow" href="#contacts">
+        <ion-icon name="arrow-down-outline"></ion-icon>
+        <span>Scroll Down</span>
+      </a>
+
+      <div class="watermark">Projects</div>
     </section>
 
     <!-- This is contacts section that contains form and information about social links-->
     <section id="contacts" class="contacts">
-        <div class="container-contacts">
-            <!-- Indicator that using handwriting font style -->
-            <span class="indicator" data-aos="fade-down" data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="200">| want to collaborate? or just to say hi |</span>
+      <div class="container-contacts">
+        <!-- Indicator that using handwriting font style -->
+        <span
+          class="indicator"
+          data-aos="fade-down"
+          data-aos-easing="ease-out-back"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          >| want to collaborate? or just to say hi |</span
+        >
 
-            <form name="n1coder-contact" class="contacts-form">
-                <label for="name">Name</label>
-                <input name="name" type="text" id="name" required>
-    
-                <label for="email">Email</label>
-                <input name="email" type="email" id="email" required>
-    
-                <label for="message-box">Your Message</label>
-                <textarea name="messages" id="message-box" rows="4"></textarea>
-    
-                <!-- Submit button for sending messages -->
-                <button type="submit" class="submit" id="submit">Submit Message</button>
+        <form name="n1coder-contact" class="contacts-form">
+          <label for="name">Name</label>
+          <input name="name" type="text" id="name" required />
 
-                <!-- Loading indicator -->
-                <div class="load d-none">
-                    <span style="--i: 0;"></span>
-                    <span style="--i: 2;"></span>
-                    <span style="--i: 4;"></span>
-                </div>
-            </form>
-        </div>
+          <label for="email">Email</label>
+          <input name="email" type="email" id="email" required />
 
-        <div class="social">
-            <h4>Also Find Me On Other Social Platforms</h4>
-            
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/muhamad.nico.16/" target="_blank">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                        <span class="social-label">Muhamad Nico</span>
-                    </a>
-                </li>
+          <label for="message-box">Your Message</label>
+          <textarea name="messages" id="message-box" rows="4"></textarea>
 
-                <li>
-                    <a href="https://github.com/N1Coder" target="_blank">
-                        <ion-icon name="logo-github"></ion-icon>
-                        <span class="social-label">@N1Coder</span>
-                    </a>
-                </li>
+          <!-- Submit button for sending messages -->
+          <button type="submit" class="submit" id="submit">
+            Submit Message
+          </button>
 
-                <li>
-                    <a href="https://wa.me/6281349646728" target="_blank">
-                        <ion-icon name="logo-whatsapp"></ion-icon>
-                        <span class="social-label">+62 813-4964-6728</span>
-                    </a>
-                </li>
+          <!-- Loading indicator -->
+          <div class="load d-none">
+            <span style="--i: 0"></span>
+            <span style="--i: 2"></span>
+            <span style="--i: 4"></span>
+          </div>
+        </form>
+      </div>
 
-                <li>
-                    <a href="mailto: lonicoarifin677@gmail.com" target="_blank">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <span class="social-label">lonicoarifin677@gmail.com</span>
-                    </a>
-                </li>
+      <div class="social">
+        <h4>Also Find Me On Other Social Platforms</h4>
 
-            </ul>
-        </div>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/ruvu_11/" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+              <span class="social-label">ruvu_11</span>
+            </a>
+          </li>
 
-        <div style="font-size: 9rem;" class="watermark">Get In Touch</div>
+          <li>
+            <a href="https://github.com/N1Coder" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+              <span class="social-label">@N1Coder</span>
+            </a>
+          </li>
 
-        <a class="nav-arrow" href="#home">
-            <ion-icon name="arrow-up-outline"></ion-icon>
-            <span>Back To Home Section</span>
-        </a>
+          <li>
+            <a href="https://wa.me/6281349646728" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+              <span class="social-label">Nico Arifin</span>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-        <footer>
-            <p>Made by me with 🤍| &copy Nico Arifin 2022 | Indonesien</p>
-        </footer>
+      <div style="font-size: 9rem" class="watermark">Get In Touch</div>
+
+      <a class="nav-arrow" href="#home">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+        <span>Back To Home Section</span>
+      </a>
+
+      <footer>
+        <p>Made by me with 🤍| &copy Nico Arifin 2022 | Indonesien</p>
+      </footer>
     </section>
 
-
     <!-- Script For Icon From ionicons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
     <!-- AOS Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init()
     </script>
 
     <!-- Form Contact Script -->
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwIXoj9SmwwywXdUSW4cfZY94rK3bicBknh2Sy1MSS3a1naXcov7yGtJvjb9aSpdieqsw/exec'
-        const form = document.forms['n1coder-contact']
-        const send = document.querySelector('.submit')
-        const load = document.querySelector('.load')
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwIXoj9SmwwywXdUSW4cfZY94rK3bicBknh2Sy1MSS3a1naXcov7yGtJvjb9aSpdieqsw/exec"
+      const form = document.forms["n1coder-contact"]
+      const send = document.querySelector(".submit")
+      const load = document.querySelector(".load")
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
+      form.addEventListener("submit", (e) => {
+        e.preventDefault()
+        // When submit button is clicked
+        // Add class d-none to send
+        load.classList.toggle("d-none")
+        send.classList.toggle("d-none")
+
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
             // When submit button is clicked
-            // Add class d-none to send
-            load.classList.toggle('d-none')
-            send.classList.toggle('d-none')
+            // Add class d-none to load
+            load.classList.toggle("d-none")
+            send.classList.toggle("d-none")
 
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                console.log('Success!', response)
-                // When submit button is clicked
-                // Add class d-none to load
-                load.classList.toggle('d-none')
-                send.classList.toggle('d-none')
+            // alert user that the message has been received
+            alert("Thank you for your message 😎!!!")
 
-                // alert user that the message has been received
-                alert('Thank you for your message 😎!!!')
-
-                // Reset the form
-                form.reset()
-        })
-            .catch(error => {
-                console.error('Error!', error.message)
-                alert('Sorry, you have to try again 😢')
-        })
-        })
+            // Reset the form
+            form.reset()
+          })
+          .catch((error) => {
+            console.error("Error!", error.message)
+            alert("Sorry, you have to try again 😢")
+          })
+      })
     </script>
-</body>
+  </body>
 </html>
